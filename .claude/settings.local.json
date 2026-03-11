@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install azure-mgmt-resource==21.2.1)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 11072 /F)",
+      "Bash(taskkill /PID 5796 /F)",
+      "Bash(source myenv/Scripts/activate)",
+      "Bash(python -c \"from src.api import app\")",
+      "Bash(lsof -ti:8002)",
+      "Bash(xargs kill -9)"
+    ]
+  }
+}
